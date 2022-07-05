@@ -13,6 +13,11 @@ img {
     margin: 0 auto;
 }
 
+.container-smaller{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 html    {
     font-family: 'Roboto', sans-serif;
     
@@ -61,6 +66,11 @@ html    {
 
 /*blue-squares*/
 
+.blue-squares {
+    margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+
 .square-container   {
     display: flex;
     flex-wrap: wrap;
@@ -82,7 +92,7 @@ html    {
     padding: 1.3rem;
     border-radius: 5%;
     margin: 0.5rem;
-    flex-basis: calc(100%/3);
+    flex-basis: 33%;
 }
 
 i   {
@@ -108,4 +118,80 @@ i   {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/*planning development section*/
+.planning-development   {
+    background-color: #9593e6;
+    padding-left: 7rem;
+    padding-right: 7rem;
+}
+
+.planning-development-container {
+    display: flex;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+
+.planning{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-right: 0.5rem;
+    line-height: 2rem;
+}
+
+.planning h2{
+    font-style: none;
+    padding: 2rem;
+}
+
+.planning img   {
+    margin-bottom: 25rem;
+}
+
+.development{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 5%;
+    padding: 2rem;
+    align-self: flex-end;
+    margin-left: 0.5rem;
+    line-height: 2rem;
+    text-align: center;
+    font-style: italic;
+}
+
+.development h2{
+    font-style: none;
+    padding: 2rem;
+}
+
+/*testimonials*/
+.testimonials-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-card{
+    background-color: #9593e6;
+    border-radius: 25px;
+    display: flex ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.testimonial-img img   {
+    aspect-ratio: 1;
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+.testimonial-text   {
+    align-self: center;
 }
