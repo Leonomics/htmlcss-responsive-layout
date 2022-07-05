@@ -59,4 +59,53 @@ html    {
     padding: 0.5rem;
 }
 
-/*
+/*blue-squares*/
+
+.square-container   {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.col.rectangle  {
+    flex-grow: 1;
+    display: flex;
+}
+
+.rectangle-img  {
+
+}
+
+.col    {
+    background-color: skyblue;
+    text-align: center;
+    padding: 1.3rem;
+    border-radius: 5%;
+    margin: 0.5rem;
+    flex-basis: calc(100%/3);
+}
+
+i   {
+    color: blue;
+}
+
+.col h2 {
+    color: blue;
+}
+
+.app-store-button   {
+    padding: 0.5rem;
+    color: white;
+    background-color: blue;
+
+}
+
+.fa-apple   {
+    color: white;
+}
+
+.app-store-button   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
