@@ -269,8 +269,31 @@ i   {
         font-family: "Font Awesome 5 Free";
         content:"\e1cf"
     }
+    .planning-development-container   {
+        flex-direction: column;
+    }
+    .benefit-card{
+        flex-basis: calc(100%/2);
+    }
  }
+
+
 
  /*smartphone*/
  @media screen and (max-width: 480px)   {
+    .benefit-card{
+        flex-basis: calc(100%/1);
+    }
+    .square-container .col{
+        flex-basis: calc(100%/1);
+    }
+    .app-store-button-container{
+        align-items: center;
+    }
+    .rectangle{
+        display: flex;
+        flex-direction: column;
+    }
+    
+
  }
