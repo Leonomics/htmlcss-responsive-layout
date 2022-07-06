@@ -74,6 +74,7 @@ html    {
 .square-container   {
     display: flex;
     flex-wrap: wrap;
+    
 
 }
 
@@ -91,7 +92,7 @@ html    {
     text-align: center;
     padding: 1.3rem;
     border-radius: 25px;
-    margin: 0.5rem;
+    
 
 }
 
@@ -280,6 +281,9 @@ i   {
     .benefit-card{
         flex-basis: calc(100%/2);
     }
+    .development{
+        align-self: center;
+    }
  }
 
 
@@ -290,7 +294,7 @@ i   {
         flex-basis: calc(100%/1);
     }
     .col{
-        flex-basis: 100%;
+        flex-basis: calc(100%/1);
     }
     .square-container .col{
         flex-basis: calc(100%/1);
