@@ -77,8 +77,7 @@ html    {
 
 }
 
-.col.rectangle  {
-    
+.col.rectangle  {   
     display: flex;
     flex-basis: calc(100%*2/3);
 }
@@ -91,14 +90,14 @@ html    {
     background-color: skyblue;
     text-align: center;
     padding: 1.3rem;
-    border-radius: 5%;
+    border-radius: 25px;
     margin: 0.5rem;
 
 }
 
 .col:not(.rectangle)   {
-    flex-basis: 33%;
-    flex-basis: 30%;
+    flex-basis: calc(100%/3);
+    
 }
 
 i   {
@@ -289,6 +288,9 @@ i   {
  @media screen and (max-width: 480px)   {
     .benefit-card{
         flex-basis: calc(100%/1);
+    }
+    .col{
+        flex-basis: 100%;
     }
     .square-container .col{
         flex-basis: calc(100%/1);
