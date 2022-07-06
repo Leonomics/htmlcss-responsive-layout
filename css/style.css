@@ -78,8 +78,9 @@ html    {
 }
 
 .col.rectangle  {
-    flex-grow: 1;
+    
     display: flex;
+    flex-basis: calc(100%*2/3);
 }
 
 .rectangle-img  {
@@ -92,7 +93,12 @@ html    {
     padding: 1.3rem;
     border-radius: 5%;
     margin: 0.5rem;
+
+}
+
+.col:not(.rectangle)   {
     flex-basis: 33%;
+    flex-basis: 30%;
 }
 
 i   {
